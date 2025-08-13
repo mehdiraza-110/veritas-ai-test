@@ -50,10 +50,10 @@ export function SubscriptionPortal() {
             </div>
           </div>
           <div className="flex space-x-2">
-            <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 bg-transparent">
+            <Button variant="outline" className="border-white/20 text-white hover:text-white hover:bg-white/10 bg-transparent">
               Change Plan
             </Button>
-            <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 bg-transparent">
+            <Button variant="outline" className="border-white/20 text-white hover:text-white hover:bg-white/10 bg-transparent">
               Cancel Subscription
             </Button>
           </div>
@@ -155,7 +155,7 @@ export function SubscriptionPortal() {
                   Email support
                 </li>
               </ul>
-              <Button variant="outline" className="w-full border-white/20 text-white hover:bg-white/10 bg-transparent">
+              <Button variant="outline" className="w-full border-white/20 text-white hover:text-white hover:bg-white/10 bg-transparent">
                 Current Plan
               </Button>
             </CardContent>
@@ -228,7 +228,7 @@ export function SubscriptionPortal() {
                   Dedicated support
                 </li>
               </ul>
-              <Button variant="outline" className="w-full border-white/20 text-white hover:bg-white/10 bg-transparent">
+              <Button variant="outline" className="w-full border-white/20 text-white hover:text-white hover:bg-white/10 bg-transparent">
                 Contact Sales
               </Button>
             </CardContent>
@@ -270,10 +270,10 @@ export function SubscriptionPortal() {
                     </Badge>
                   </div>
                   <div className="flex space-x-2">
-                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
+                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-black">
                       <Download className="h-4 w-4" />
                     </Button>
-                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
+                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-black">
                       <Mail className="h-4 w-4" />
                     </Button>
                   </div>

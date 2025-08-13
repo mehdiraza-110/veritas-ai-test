@@ -136,7 +136,7 @@ export function ApiManagement() {
                 <Button
                   variant="outline"
                   onClick={() => setIsCreateOpen(false)}
-                  className="border-white/20 text-white hover:bg-white/10 bg-transparent"
+                  className="border-white/20 text-white hover:text-white hover:bg-white/10 bg-transparent"
                 >
                   Cancel
                 </Button>
@@ -235,7 +235,7 @@ export function ApiManagement() {
                       variant="ghost"
                       size="sm"
                       onClick={() => toggleKeyVisibility(apiKey.id)}
-                      className="text-gray-400 hover:text-white"
+                      className="text-gray-400 hover:text-black"
                     >
                       {visibleKeys.has(apiKey.id) ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
                     </Button>
@@ -243,7 +243,7 @@ export function ApiManagement() {
                       variant="ghost"
                       size="sm"
                       onClick={() => copyToClipboard(apiKey.key)}
-                      className="text-gray-400 hover:text-white"
+                      className="text-gray-400 hover:text-black"
                     >
                       <Copy className="h-4 w-4" />
                     </Button>
@@ -259,7 +259,7 @@ export function ApiManagement() {
                       </span>
                     </div>
                     <div className="flex items-center space-x-2">
-                      <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
+                      <Button variant="ghost" size="sm" className="text-gray-400 hover:text-black">
                         <RotateCcw className="h-4 w-4" />
                       </Button>
                       <Button variant="ghost" size="sm" className="text-gray-400 hover:text-red-400">

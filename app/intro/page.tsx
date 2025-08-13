@@ -10,7 +10,7 @@ export default function IntroPage() {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.push("/results")
-    }, 3000) // Extended timer to 3 seconds for better UX
+    }, 6000) // Extended timer to 3 seconds for better UX
 
     return () => clearTimeout(timer)
   }, [router])
